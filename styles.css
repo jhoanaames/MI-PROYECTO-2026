@@ -1,0 +1,138 @@
+*{ box-sizing:border-box; margin:0; padding:0; font-family: fantasy, sans-serif; }
+body{ background:#f197c1; color:#222; }
+
+.header{
+  background:#f080ce;
+  padding:20px;
+  border-bottom: 1px solid #6016eb;
+}
+.logo h1{ font-size:22px; }
+.logo p{ color:#0c0b0b; margin-top:6px; }
+
+.nav{
+  margin-top:12px;
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+}
+.nav a{
+  text-decoration:none;
+  padding:10px 14px;
+  border-radius:10px;
+  background:#f86ee6;
+  border:1px solid #fd67e9;
+  color:#222;
+}
+.nav a:hover{ background:#080808; }
+.nav a.active{ background:#ffb6d1; border-color:#ff7fb0; }
+
+.hero{
+  background-image:url("MIS IMAGENES/flores portada.jpg");
+  background-size:cover;
+  background-position:center;
+  padding:90px 20px;
+  color:rgb(80, 2, 69);
+}
+.hero-text{
+  max-width:800px;
+  background: rgba(89, 203, 231, 0.45);
+  padding:24px;
+  border-radius:16px;
+}
+
+.container{
+  max-width:1100px;
+  margin: 20px auto;
+  padding: 0 16px;
+}
+
+.section{
+  margin: 26px 0;
+  padding: 18px;
+  border:1px solid #e957d5;
+  border-radius:16px;
+  background:#d61354;
+}
+.section h2{ margin-bottom:10px; }
+.section p{ margin-bottom:12px; color:#e97777; }
+
+.grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap:14px;
+}
+
+.card{
+  border:1px solid #19e4c9;
+  border-radius:14px;
+  overflow:hidden;
+  background:#f89de9;
+}
+.card img{
+  width:100%;
+  height:170px;
+  object-fit:cover;
+  display:block;
+}
+.card figcaption{
+  padding:10px;
+  font-weight:bold;
+}
+
+.videos{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap:14px;
+  margin-top:12px;
+}
+.videos iframe{
+  width:100%;
+  height:220px;
+  border:0;
+  border-radius:14px;
+}
+
+.audio-box{
+  margin-top:18px;
+  padding:14px;
+  border-radius:14px;
+  border:1px dashed #ff7fb0;
+}
+.note{ margin-top:8px; font-size:14px; color:#444; }
+
+.form{
+  display:grid;
+  gap:12px;
+  margin-top:12px;
+}
+.form input, .form textarea{
+  width:100%;
+  padding:10px;
+  border-radius:10px;
+  border:1px solid #24f895;
+  margin-top:6px;
+}
+.list{ padding-left:18px; }
+.list li{ margin:8px 0; }
+
+.btn{
+  display:inline-block;
+  background:#ff4d94;
+  color:rgb(2, 2, 2);
+  border:none;
+  padding:10px 16px;
+  border-radius:12px;
+  text-decoration:none;
+  cursor:pointer;
+  font-weight:bold;
+}
+.btn:hover{ filter:brightness(0.95); }
+
+.footer{
+  margin-top:30px;
+  padding:18px;
+  text-align:center;
+  background:#f7f2f6;
+  border-top:1px solid #ddd;
+  color:#1eabec;
+}
