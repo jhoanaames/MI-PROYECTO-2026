@@ -2,7 +2,7 @@
 body{ background:#f197c1; color:#222; }
 
 .header{
-  background:#f080ce;
+  background:#f368fd;
   padding:20px;
   border-bottom: 1px solid #6016eb;
 }
@@ -19,7 +19,7 @@ body{ background:#f197c1; color:#222; }
   text-decoration:none;
   padding:10px 14px;
   border-radius:10px;
-  background:#f86ee6;
+  background:#0ddbe6;
   border:1px solid #fd67e9;
   color:#222;
 }
@@ -117,7 +117,7 @@ body{ background:#f197c1; color:#222; }
 
 .btn{
   display:inline-block;
-  background:#ff4d94;
+  background:#d859eb;
   color:rgb(2, 2, 2);
   border:none;
   padding:10px 16px;
